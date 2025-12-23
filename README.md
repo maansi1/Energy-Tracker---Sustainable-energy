@@ -31,6 +31,43 @@ npm run dev
 
 4. Open your browser and visit `http://localhost:5173`
 
+🛠️ Setup Instructions
+1. Prerequisites
+
+• Install Node.js(https://nodejs.org/)
+
+• Install MongoDB Compass(https://www.mongodb.com/products/compass)
+
+2. Clone the Repository
+
+```
+
+git clone https://github.com/maansi1/Energy-Tracker.git
+
+cd Energy-Tracker
+
+```
+
+3. Backend Setup
+
+```
+
+cd backend
+
+npm install
+
+```
+
+Create a `.env` file in the `backend` folder:
+
+```
+
+MONGO_URI=mongodb://localhost:27017/energy-tracker
+
+PORT=5000
+
+```
+
 ## Project Structure
 
 ```
